@@ -26,17 +26,17 @@
 	//设置发送的邮件的编码 可选GB2312 
 	$mail->CharSet = 'UTF-8';
 	//设置发件人姓名（昵称）可为任意内容，不影响回复(设置为qq昵称即可)
-	$mail->FromName = '飞越蓝天的云';
+	$mail->FromName = 'XXXXXX';
 	//smtp登录的账号 这里填入qq号即可
-	$mail->Username ='1257698043';
+	$mail->Username ='XXXXXXX';
 	//smtp登录的密码 这里填入“独立密码” 若为设置“独立密码”则填入登录qq的密码 建议设置“独立密码”
-	$mail->Password = 'woainibama1314';
+	$mail->Password = 'XXXXXXXXYYYYYYY';
 	//设置发件人邮箱地址 这里填入上述提到的“发件人邮箱”
-	$mail->From = '1257698043@qq.com';
+	$mail->From = '发件人邮箱';
 	//邮件正文是否以html方式发送  
 	$mail->isHTML(true); 
 	//设置收件人邮箱地址 该方法有两个参数 第一个参数为收件人邮箱地址 第二参数为给该地址设置的昵称 不同的邮箱系统会自动进行处理变动 这里第二个参数的意义不大
-	$mail->addAddress('1319272359@qq.com','乔帮主');
+	$mail->addAddress('收件人邮箱','这个QQ的昵称');
 	//可添加多个收件人
 	//$mail->addAddress('XXXX@qq.com','XXXXX');
 	//添加该邮件的主题
